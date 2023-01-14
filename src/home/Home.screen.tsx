@@ -1,7 +1,4 @@
 import React from 'react';
+import { HomeScreenView } from './Home.screen.view';
 
-export const HomeScreen: React.FC = () => {
-  console.log('hi');
-
-  return <h2>hello</h2>;
-}
+export const HomeScreen: React.FC = () => <HomeScreenView />;
