@@ -1,0 +1,1 @@
+export const Select: React.FC<any> = () => <h2>select input</h2>

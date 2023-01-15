@@ -1,5 +1,5 @@
 import { HomeScreen } from './home/Home.screen'
-import { AppBar } from './_shared/appBar/AppBar.component'
+import { AppBar } from './_shared/components/appBar/AppBar.component'
 
 function App() {
   return (
