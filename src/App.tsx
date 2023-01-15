@@ -1,10 +1,11 @@
-import { HomeScreen } from './home/Home.screen'
+import { StaticFormScreen } from './staticForm/StaticForm.screen'
 import { AppBar } from './_shared/components/appBar/AppBar.component'
 
 function App() {
   return (
     <AppBar>
-      <HomeScreen />
+      {/* Will include react router configuration soon */}
+      <StaticFormScreen />
     </AppBar>
   )
 }

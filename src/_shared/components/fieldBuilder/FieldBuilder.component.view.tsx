@@ -1,7 +1,7 @@
 import { ErrorMessage } from "formik";
-import { FieldBuilderOptionsType, FieldInputType } from "../../_data/model/FieldBuilder.model";
 import { Text } from "./fieldInputType/Text.component.view";
 import { Select } from "./fieldInputType/Select.component.view";
+import { FieldBuilderOptionsType, FieldInputType } from "../../../_data/model/FieldBuilder.model";
 
 type FieldBuilderViewPropsType = { fieldOptions: FieldBuilderOptionsType; }
 

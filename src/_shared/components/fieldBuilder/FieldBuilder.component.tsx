@@ -1,4 +1,4 @@
-import { FieldBuilderOptionsType } from "../../_data/model/FieldBuilder.model";
+import { FieldBuilderOptionsType } from "../../../_data/model/FieldBuilder.model";
 import { FieldBuilderView } from "./FieldBuilder.component.view"
 
 type FieldBuilderPropsType = { fieldOptions: FieldBuilderOptionsType; }
