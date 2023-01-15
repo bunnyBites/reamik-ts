@@ -16,9 +16,33 @@ export const staticFormFieldOptions: FieldBuilderOptionsType[] = [
         label: "Last Name",
         placeholder: "Potter"
     },
+    {
+        fieldInputType: FieldInputType.select,
+        fieldName: "role",
+        id: "staticFormRole",
+        label: "Role",
+        options: [
+            {
+                id: "staticFormRoleOptionNone",
+                label: "Select role",
+                value: "",
+            },
+            {
+                id: "staticFormRoleOptionDeveloper",
+                label: "Developer",
+                value: "dev",
+            },
+            {
+                id: "staticFormRoleOptionStudent",
+                label: "Student",
+                value: "intern",
+            },
+        ]
+    }
 ]
 
 export const initialStaticFormFieldValue: StaticFormType = {
     firstName: "",
     lastName: "",
+    role: "",
 }
