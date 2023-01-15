@@ -8,8 +8,8 @@ export const SideBarView: React.FC<SidebarViewPropsType> = (props: SidebarViewPr
     const { pathName } = props;
 
     return (
-        <div className="min-vh-100 bg-dark" style={{ maxWidth: "20vw" }}>
-            <h4 className="my-4 text-white px-5 text-nowrap">Select Form Type</h4>
+        <div className="min-vh-100 bg-dark py-3">
+            <h4 className="text-white px-5 text-nowrap text-center mb-4">Reamik</h4>
             <ul className="nav flex-column nav-pills nav-fill">
                 {
                     sideBarOptions.map(({ id, title, toPath }) => (
