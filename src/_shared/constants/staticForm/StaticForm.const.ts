@@ -1,4 +1,5 @@
 import { FieldBuilderOptionsType, FieldInputType } from "../../../_data/model/FieldBuilder.model";
+import { StaticFormType } from "../../../_data/model/staticForm/StaticForm.model";
 
 export const staticFormFieldOptions: FieldBuilderOptionsType[] = [
     {
@@ -16,3 +17,8 @@ export const staticFormFieldOptions: FieldBuilderOptionsType[] = [
         placeholder: "Potter"
     },
 ]
+
+export const initialStaticFormFieldValue: StaticFormType = {
+    firstName: "",
+    lastName: "",
+}

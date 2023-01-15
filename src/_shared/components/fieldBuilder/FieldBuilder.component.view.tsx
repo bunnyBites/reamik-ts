@@ -12,7 +12,10 @@ export const FieldBuilderView: React.FC<FieldBuilderViewPropsType> = (
 
     // have seperated this code as it may expand in future with more field types.
     const renderFieldInput = () => {
-        const InputComponent = (fieldOptions.fieldInputType === FieldInputType.text ? Text : Select);
+        const InputComponent = (
+            fieldOptions.fieldInputType === FieldInputType.text
+            ? Text : Select
+        );
 
         return <InputComponent {...props} />
     }
@@ -20,7 +23,12 @@ export const FieldBuilderView: React.FC<FieldBuilderViewPropsType> = (
     return (
         <div className="mb-3">
              {/* field label */}
-            <label htmlFor={fieldOptions.id} className="form-label">{fieldOptions.label}</label>
+            <label
+                htmlFor={fieldOptions.id}
+                className="form-label fs-6 fw-bold"
+            >
+                {fieldOptions.label}
+            </label>
 
             {/*  field input */}
             {renderFieldInput()}
